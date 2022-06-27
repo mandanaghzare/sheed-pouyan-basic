@@ -40,29 +40,43 @@ function MainHeader() {
 		let scrollTop = window.scrollY,
 				minHeight = 10,
 				logoHeight = Math.max(minHeight, 71 - scrollTop/10);
-        console.log(logoHeight)
     setHandleScroll(logoHeight);
 	}
   // header cover height
-
-  // header cover height
+  
+  // rotate polygon
   const [rotatePolygon, setrotatePolygon] = useState();  
   useEffect(() => {
-    window.addEventListener('scroll', heightChange);
+    window.addEventListener('scroll', ropoly);
 
     return () => {
-      window.removeEventListener('scroll', heightChange);
+      window.removeEventListener('scroll', ropoly);
     };
   }, []);
   const ropoly = () => {
 		let scrollTop = window.scrollY,
-				minDegree = 0,
-				rotateDegree = Math.max(minDegree, 360 - scrollTop/10);
-        console.log(rotateDegree)
-    setHandleScroll(rotateDegree);
+				minDegree = 270,
+				rotateDegree = Math.max(minDegree, 360 - scrollTop/5);
+    setrotatePolygon(rotateDegree);
 	}
-  // header cover height
+  // rotate polygon
 
+  // fade polygon
+  const [fadePolygon, setfadePolygon] = useState();  
+  useEffect(() => {
+    window.addEventListener('scroll', fading);
+
+    return () => {
+      window.removeEventListener('scroll', fading);
+    };
+  }, []);
+  const fading = () => {
+		let scrollTop = window.scrollY,
+				minDegree = 0,
+				fadeDegree = Math.max(minDegree, 1 - scrollTop/1000);
+    setfadePolygon(fadeDegree);
+	}
+  // fade polygon
   return (
     <header>
       <div className="backHeader">
@@ -72,7 +86,7 @@ function MainHeader() {
           </div>
         </Parallax>
       </div>
-      <div className="polygon">
+      <div className="polygon" style={{transform: `rotate3d(1, 0, 0, ${rotatePolygon}deg)`, opacity:fadePolygon}}>
         <div className="outter">
           <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
           <div className="inner">
