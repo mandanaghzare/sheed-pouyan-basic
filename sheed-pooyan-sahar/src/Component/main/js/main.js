@@ -10,17 +10,7 @@ import ContactUs from './contact-us';
 import Footer from '../../public/js/footer';
 import { 
   ScrollContainer,
-  Animator, 
-  ScrollPage,
-  Sticky,
-  StickyOut,
-  Move, 
-  MoveIn, 
-  MoveOut, 
-  batch, 
-  Fade, 
-  FadeIn, 
-  ZoomIn } from 'react-scroll-motion';
+  ScrollPage,} from 'react-scroll-motion';
 
 function Main() {
   return (
