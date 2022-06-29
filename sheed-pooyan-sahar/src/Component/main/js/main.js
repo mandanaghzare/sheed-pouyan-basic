@@ -14,7 +14,7 @@ import {
 
 function Main() {
   return (
-    <>
+    <div id="scroll-container">
       <ScrollContainer>
         <ScrollPage page={0}>
           <MainHeader />
@@ -28,7 +28,7 @@ function Main() {
       <Articles />
       <ContactUs />
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -119,7 +119,7 @@ header{
         }
     }
     canvas {
-        position: fixed;
+        position: relative;
         left: 50%;
         top: 50%;
         max-height: 100vh;
@@ -216,10 +216,13 @@ header{
         right: -145px;
         width: 50rem;
         height: 50rem;
-        transform: rotate(22.5deg);
+        transition: .5s ease all;
+        // transform: rotate(22.5deg);
         img{
             transform: rotate(-67deg);
             height: 110%;
+            transition: .5s ease all;
+            // transition: 0ms;
         }
     }
     .inner{

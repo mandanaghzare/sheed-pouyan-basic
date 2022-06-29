@@ -104,6 +104,14 @@ header .react-parallax .react-parallax-content {
 .lens #_border_gradient #_fixed_img {
   position: fixed;
 }
+.lens canvas {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  max-height: 100vh;
+  max-width: 100vw;
+  transform: translate(-50%, -50%);
+}
 
 .text-slide {
   padding: 5rem 0rem;
@@ -160,304 +168,304 @@ header .react-parallax .react-parallax-content {
   align-items: center;
 }
 .main-products .mySwiper .slideItem:nth-child(0) {
-  border: 5px solid rgb(19, 154, 77);
+  border: 5px solid rgb(158, 82, 146);
 }
 .main-products .mySwiper .slideItem:nth-child(1) {
-  border: 5px solid rgb(229, 228, 26);
+  border: 5px solid rgb(154, 228, 202);
 }
 .main-products .mySwiper .slideItem:nth-child(2) {
-  border: 5px solid rgb(185, 178, 250);
+  border: 5px solid rgb(248, 130, 199);
 }
 .main-products .mySwiper .slideItem:nth-child(3) {
-  border: 5px solid rgb(211, 192, 134);
+  border: 5px solid rgb(114, 163, 148);
 }
 .main-products .mySwiper .slideItem:nth-child(4) {
-  border: 5px solid rgb(22, 96, 137);
+  border: 5px solid rgb(219, 69, 253);
 }
 .main-products .mySwiper .slideItem:nth-child(5) {
-  border: 5px solid rgb(122, 146, 189);
+  border: 5px solid rgb(84, 8, 145);
 }
 .main-products .mySwiper .slideItem:nth-child(6) {
-  border: 5px solid rgb(138, 228, 200);
+  border: 5px solid rgb(211, 118, 223);
 }
 .main-products .mySwiper .slideItem:nth-child(7) {
-  border: 5px solid rgb(136, 5, 93);
+  border: 5px solid rgb(151, 230, 111);
 }
 .main-products .mySwiper .slideItem:nth-child(8) {
-  border: 5px solid rgb(145, 123, 183);
+  border: 5px solid rgb(169, 217, 203);
 }
 .main-products .mySwiper .slideItem:nth-child(9) {
-  border: 5px solid rgb(53, 35, 186);
+  border: 5px solid rgb(84, 139, 194);
 }
 .main-products .mySwiper .slideItem:nth-child(10) {
-  border: 5px solid rgb(67, 104, 103);
+  border: 5px solid rgb(31, 14, 127);
 }
 .main-products .mySwiper .slideItem:nth-child(11) {
-  border: 5px solid rgb(247, 95, 218);
+  border: 5px solid rgb(185, 198, 27);
 }
 .main-products .mySwiper .slideItem:nth-child(12) {
-  border: 5px solid rgb(80, 25, 215);
+  border: 5px solid rgb(56, 220, 161);
 }
 .main-products .mySwiper .slideItem:nth-child(13) {
-  border: 5px solid rgb(14, 203, 12);
+  border: 5px solid rgb(63, 216, 6);
 }
 .main-products .mySwiper .slideItem:nth-child(14) {
-  border: 5px solid rgb(238, 121, 12);
+  border: 5px solid rgb(193, 224, 7);
 }
 .main-products .mySwiper .slideItem:nth-child(15) {
-  border: 5px solid rgb(161, 93, 205);
+  border: 5px solid rgb(139, 230, 111);
 }
 .main-products .mySwiper .slideItem:nth-child(16) {
-  border: 5px solid rgb(28, 75, 3);
+  border: 5px solid rgb(123, 147, 125);
 }
 .main-products .mySwiper .slideItem:nth-child(17) {
-  border: 5px solid rgb(178, 43, 65);
+  border: 5px solid rgb(188, 240, 220);
 }
 .main-products .mySwiper .slideItem:nth-child(18) {
-  border: 5px solid rgb(136, 214, 239);
+  border: 5px solid rgb(199, 34, 229);
 }
 .main-products .mySwiper .slideItem:nth-child(19) {
-  border: 5px solid rgb(253, 232, 63);
+  border: 5px solid rgb(249, 53, 71);
 }
 .main-products .mySwiper .slideItem:nth-child(20) {
-  border: 5px solid rgb(163, 123, 136);
+  border: 5px solid rgb(183, 191, 70);
 }
 .main-products .mySwiper .slideItem:nth-child(21) {
-  border: 5px solid rgb(11, 193, 145);
+  border: 5px solid rgb(48, 246, 187);
 }
 .main-products .mySwiper .slideItem:nth-child(22) {
-  border: 5px solid rgb(161, 143, 91);
+  border: 5px solid rgb(168, 110, 134);
 }
 .main-products .mySwiper .slideItem:nth-child(23) {
-  border: 5px solid rgb(236, 82, 155);
+  border: 5px solid rgb(196, 112, 211);
 }
 .main-products .mySwiper .slideItem:nth-child(24) {
-  border: 5px solid rgb(226, 101, 75);
+  border: 5px solid rgb(227, 83, 145);
 }
 .main-products .mySwiper .slideItem:nth-child(25) {
-  border: 5px solid rgb(113, 68, 138);
+  border: 5px solid rgb(19, 30, 8);
 }
 .main-products .mySwiper .slideItem:nth-child(26) {
-  border: 5px solid rgb(134, 69, 240);
+  border: 5px solid rgb(104, 29, 207);
 }
 .main-products .mySwiper .slideItem:nth-child(27) {
-  border: 5px solid rgb(17, 81, 36);
+  border: 5px solid rgb(59, 54, 75);
 }
 .main-products .mySwiper .slideItem:nth-child(28) {
-  border: 5px solid rgb(81, 80, 2);
+  border: 5px solid rgb(112, 30, 189);
 }
 .main-products .mySwiper .slideItem:nth-child(29) {
-  border: 5px solid rgb(223, 61, 237);
+  border: 5px solid rgb(26, 68, 75);
 }
 .main-products .mySwiper .slideItem:nth-child(30) {
-  border: 5px solid rgb(103, 112, 184);
+  border: 5px solid rgb(51, 198, 173);
 }
 .main-products .mySwiper .slideItem:nth-child(31) {
-  border: 5px solid rgb(100, 19, 3);
+  border: 5px solid rgb(238, 248, 118);
 }
 .main-products .mySwiper .slideItem:nth-child(32) {
-  border: 5px solid rgb(50, 232, 254);
+  border: 5px solid rgb(245, 36, 36);
 }
 .main-products .mySwiper .slideItem:nth-child(33) {
-  border: 5px solid rgb(254, 50, 58);
+  border: 5px solid rgb(136, 131, 103);
 }
 .main-products .mySwiper .slideItem:nth-child(34) {
-  border: 5px solid rgb(201, 135, 246);
+  border: 5px solid rgb(20, 175, 101);
 }
 .main-products .mySwiper .slideItem:nth-child(35) {
-  border: 5px solid rgb(187, 181, 223);
+  border: 5px solid rgb(178, 10, 228);
 }
 .main-products .mySwiper .slideItem:nth-child(36) {
-  border: 5px solid rgb(62, 76, 166);
+  border: 5px solid rgb(189, 236, 194);
 }
 .main-products .mySwiper .slideItem:nth-child(37) {
-  border: 5px solid rgb(164, 68, 177);
+  border: 5px solid rgb(20, 250, 209);
 }
 .main-products .mySwiper .slideItem:nth-child(38) {
-  border: 5px solid rgb(92, 31, 18);
+  border: 5px solid rgb(160, 144, 236);
 }
 .main-products .mySwiper .slideItem:nth-child(39) {
-  border: 5px solid rgb(148, 52, 44);
+  border: 5px solid rgb(165, 189, 6);
 }
 .main-products .mySwiper .slideItem:nth-child(40) {
-  border: 5px solid rgb(252, 238, 189);
+  border: 5px solid rgb(34, 16, 34);
 }
 .main-products .mySwiper .slideItem:nth-child(41) {
-  border: 5px solid rgb(173, 24, 42);
+  border: 5px solid rgb(82, 17, 55);
 }
 .main-products .mySwiper .slideItem:nth-child(42) {
-  border: 5px solid rgb(119, 63, 59);
+  border: 5px solid rgb(90, 186, 154);
 }
 .main-products .mySwiper .slideItem:nth-child(43) {
-  border: 5px solid rgb(64, 225, 115);
+  border: 5px solid rgb(196, 94, 230);
 }
 .main-products .mySwiper .slideItem:nth-child(44) {
-  border: 5px solid rgb(230, 200, 151);
+  border: 5px solid rgb(63, 177, 100);
 }
 .main-products .mySwiper .slideItem:nth-child(45) {
-  border: 5px solid rgb(167, 102, 212);
+  border: 5px solid rgb(12, 237, 183);
 }
 .main-products .mySwiper .slideItem:nth-child(46) {
-  border: 5px solid rgb(16, 219, 118);
+  border: 5px solid rgb(58, 243, 57);
 }
 .main-products .mySwiper .slideItem:nth-child(47) {
-  border: 5px solid rgb(42, 166, 181);
+  border: 5px solid rgb(167, 147, 212);
 }
 .main-products .mySwiper .slideItem:nth-child(48) {
-  border: 5px solid rgb(14, 251, 218);
+  border: 5px solid rgb(66, 208, 221);
 }
 .main-products .mySwiper .slideItem:nth-child(49) {
-  border: 5px solid rgb(195, 246, 60);
+  border: 5px solid rgb(245, 84, 223);
 }
 .main-products .mySwiper .slideItem:nth-child(50) {
-  border: 5px solid rgb(5, 68, 117);
+  border: 5px solid rgb(10, 178, 161);
 }
 .main-products .mySwiper .slideItem:nth-child(51) {
-  border: 5px solid rgb(233, 31, 181);
+  border: 5px solid rgb(141, 14, 40);
 }
 .main-products .mySwiper .slideItem:nth-child(52) {
-  border: 5px solid rgb(241, 206, 140);
+  border: 5px solid rgb(140, 31, 161);
 }
 .main-products .mySwiper .slideItem:nth-child(53) {
-  border: 5px solid rgb(145, 219, 208);
+  border: 5px solid rgb(41, 79, 83);
 }
 .main-products .mySwiper .slideItem:nth-child(54) {
-  border: 5px solid rgb(24, 8, 99);
+  border: 5px solid rgb(14, 132, 25);
 }
 .main-products .mySwiper .slideItem:nth-child(55) {
-  border: 5px solid rgb(9, 250, 203);
+  border: 5px solid rgb(97, 187, 1);
 }
 .main-products .mySwiper .slideItem:nth-child(56) {
-  border: 5px solid rgb(202, 54, 86);
+  border: 5px solid rgb(128, 208, 108);
 }
 .main-products .mySwiper .slideItem:nth-child(57) {
-  border: 5px solid rgb(152, 155, 239);
+  border: 5px solid rgb(206, 97, 71);
 }
 .main-products .mySwiper .slideItem:nth-child(58) {
-  border: 5px solid rgb(231, 158, 170);
+  border: 5px solid rgb(209, 134, 233);
 }
 .main-products .mySwiper .slideItem:nth-child(59) {
-  border: 5px solid rgb(32, 95, 100);
+  border: 5px solid rgb(219, 197, 231);
 }
 .main-products .mySwiper .slideItem:nth-child(60) {
-  border: 5px solid rgb(73, 200, 124);
+  border: 5px solid rgb(213, 190, 31);
 }
 .main-products .mySwiper .slideItem:nth-child(61) {
-  border: 5px solid rgb(15, 158, 202);
+  border: 5px solid rgb(91, 230, 117);
 }
 .main-products .mySwiper .slideItem:nth-child(62) {
-  border: 5px solid rgb(194, 241, 100);
+  border: 5px solid rgb(57, 211, 157);
 }
 .main-products .mySwiper .slideItem:nth-child(63) {
-  border: 5px solid rgb(28, 201, 229);
+  border: 5px solid rgb(213, 227, 161);
 }
 .main-products .mySwiper .slideItem:nth-child(64) {
-  border: 5px solid rgb(78, 172, 223);
+  border: 5px solid rgb(32, 245, 44);
 }
 .main-products .mySwiper .slideItem:nth-child(65) {
-  border: 5px solid rgb(191, 209, 151);
+  border: 5px solid rgb(79, 196, 80);
 }
 .main-products .mySwiper .slideItem:nth-child(66) {
-  border: 5px solid rgb(111, 237, 123);
+  border: 5px solid rgb(172, 151, 37);
 }
 .main-products .mySwiper .slideItem:nth-child(67) {
-  border: 5px solid rgb(120, 231, 206);
+  border: 5px solid rgb(123, 82, 189);
 }
 .main-products .mySwiper .slideItem:nth-child(68) {
-  border: 5px solid rgb(38, 252, 20);
+  border: 5px solid rgb(90, 215, 196);
 }
 .main-products .mySwiper .slideItem:nth-child(69) {
-  border: 5px solid rgb(74, 252, 97);
+  border: 5px solid rgb(118, 168, 105);
 }
 .main-products .mySwiper .slideItem:nth-child(70) {
-  border: 5px solid rgb(173, 16, 242);
+  border: 5px solid rgb(60, 168, 114);
 }
 .main-products .mySwiper .slideItem:nth-child(71) {
-  border: 5px solid rgb(231, 222, 216);
+  border: 5px solid rgb(65, 159, 215);
 }
 .main-products .mySwiper .slideItem:nth-child(72) {
-  border: 5px solid rgb(153, 95, 233);
+  border: 5px solid rgb(151, 227, 204);
 }
 .main-products .mySwiper .slideItem:nth-child(73) {
-  border: 5px solid rgb(56, 23, 192);
+  border: 5px solid rgb(223, 2, 149);
 }
 .main-products .mySwiper .slideItem:nth-child(74) {
-  border: 5px solid rgb(107, 79, 2);
+  border: 5px solid rgb(145, 222, 253);
 }
 .main-products .mySwiper .slideItem:nth-child(75) {
-  border: 5px solid rgb(253, 92, 231);
+  border: 5px solid rgb(18, 11, 91);
 }
 .main-products .mySwiper .slideItem:nth-child(76) {
-  border: 5px solid rgb(195, 186, 126);
+  border: 5px solid rgb(212, 24, 191);
 }
 .main-products .mySwiper .slideItem:nth-child(77) {
-  border: 5px solid rgb(255, 217, 135);
+  border: 5px solid rgb(235, 75, 17);
 }
 .main-products .mySwiper .slideItem:nth-child(78) {
-  border: 5px solid rgb(111, 151, 248);
+  border: 5px solid rgb(198, 190, 127);
 }
 .main-products .mySwiper .slideItem:nth-child(79) {
-  border: 5px solid rgb(27, 154, 250);
+  border: 5px solid rgb(13, 167, 183);
 }
 .main-products .mySwiper .slideItem:nth-child(80) {
-  border: 5px solid rgb(103, 178, 221);
+  border: 5px solid rgb(8, 38, 253);
 }
 .main-products .mySwiper .slideItem:nth-child(81) {
-  border: 5px solid rgb(100, 157, 107);
+  border: 5px solid rgb(174, 211, 131);
 }
 .main-products .mySwiper .slideItem:nth-child(82) {
-  border: 5px solid rgb(13, 39, 22);
+  border: 5px solid rgb(6, 21, 117);
 }
 .main-products .mySwiper .slideItem:nth-child(83) {
-  border: 5px solid rgb(234, 192, 117);
+  border: 5px solid rgb(30, 226, 133);
 }
 .main-products .mySwiper .slideItem:nth-child(84) {
-  border: 5px solid rgb(167, 249, 146);
+  border: 5px solid rgb(4, 203, 172);
 }
 .main-products .mySwiper .slideItem:nth-child(85) {
-  border: 5px solid rgb(54, 202, 44);
+  border: 5px solid rgb(144, 67, 142);
 }
 .main-products .mySwiper .slideItem:nth-child(86) {
-  border: 5px solid rgb(199, 18, 89);
+  border: 5px solid rgb(164, 63, 100);
 }
 .main-products .mySwiper .slideItem:nth-child(87) {
-  border: 5px solid rgb(125, 34, 108);
+  border: 5px solid rgb(182, 6, 251);
 }
 .main-products .mySwiper .slideItem:nth-child(88) {
-  border: 5px solid rgb(3, 12, 9);
+  border: 5px solid rgb(146, 169, 197);
 }
 .main-products .mySwiper .slideItem:nth-child(89) {
-  border: 5px solid rgb(79, 106, 158);
+  border: 5px solid rgb(126, 181, 9);
 }
 .main-products .mySwiper .slideItem:nth-child(90) {
-  border: 5px solid rgb(139, 185, 230);
+  border: 5px solid rgb(33, 222, 203);
 }
 .main-products .mySwiper .slideItem:nth-child(91) {
-  border: 5px solid rgb(110, 236, 127);
+  border: 5px solid rgb(232, 97, 187);
 }
 .main-products .mySwiper .slideItem:nth-child(92) {
-  border: 5px solid rgb(76, 89, 4);
+  border: 5px solid rgb(98, 193, 130);
 }
 .main-products .mySwiper .slideItem:nth-child(93) {
-  border: 5px solid rgb(217, 49, 61);
+  border: 5px solid rgb(63, 10, 206);
 }
 .main-products .mySwiper .slideItem:nth-child(94) {
-  border: 5px solid rgb(161, 25, 1);
+  border: 5px solid rgb(189, 196, 118);
 }
 .main-products .mySwiper .slideItem:nth-child(95) {
-  border: 5px solid rgb(31, 173, 244);
+  border: 5px solid rgb(35, 40, 12);
 }
 .main-products .mySwiper .slideItem:nth-child(96) {
-  border: 5px solid rgb(67, 206, 93);
+  border: 5px solid rgb(203, 133, 13);
 }
 .main-products .mySwiper .slideItem:nth-child(97) {
-  border: 5px solid rgb(16, 239, 195);
+  border: 5px solid rgb(2, 213, 151);
 }
 .main-products .mySwiper .slideItem:nth-child(98) {
-  border: 5px solid rgb(61, 25, 145);
+  border: 5px solid rgb(237, 140, 38);
 }
 .main-products .mySwiper .slideItem:nth-child(99) {
-  border: 5px solid rgb(174, 79, 44);
+  border: 5px solid rgb(48, 159, 136);
 }
 .main-products .mySwiper .slideItem img {
   width: 100%;
@@ -480,315 +488,316 @@ header .react-parallax .react-parallax-content {
   right: -145px;
   width: 50rem;
   height: 50rem;
-  transform: rotate(22.5deg);
+  transition: 0.5s ease all;
 }
 .attribute .outter img {
   transform: rotate(-67deg);
   height: 110%;
+  transition: 0.5s ease all;
 }
 .attribute .inner {
   width: 50rem;
   height: 50rem;
 }
 .attribute ul li:nth-child(0) svg {
-  color: rgb(135, 53, 115);
+  color: rgb(58, 81, 58);
 }
 .attribute ul li:nth-child(1) svg {
-  color: rgb(159, 238, 204);
+  color: rgb(189, 237, 32);
 }
 .attribute ul li:nth-child(2) svg {
-  color: rgb(190, 90, 52);
+  color: rgb(86, 8, 54);
 }
 .attribute ul li:nth-child(3) svg {
-  color: rgb(34, 19, 76);
+  color: rgb(85, 218, 137);
 }
 .attribute ul li:nth-child(4) svg {
-  color: rgb(250, 118, 219);
+  color: rgb(94, 55, 242);
 }
 .attribute ul li:nth-child(5) svg {
-  color: rgb(15, 11, 62);
+  color: rgb(83, 123, 250);
 }
 .attribute ul li:nth-child(6) svg {
-  color: rgb(40, 85, 62);
+  color: rgb(19, 202, 29);
 }
 .attribute ul li:nth-child(7) svg {
-  color: rgb(15, 196, 104);
+  color: rgb(217, 204, 24);
 }
 .attribute ul li:nth-child(8) svg {
-  color: rgb(207, 115, 201);
+  color: rgb(30, 88, 236);
 }
 .attribute ul li:nth-child(9) svg {
-  color: rgb(210, 114, 118);
+  color: rgb(141, 160, 132);
 }
 .attribute ul li:nth-child(10) svg {
-  color: rgb(16, 103, 162);
+  color: rgb(68, 193, 239);
 }
 .attribute ul li:nth-child(11) svg {
-  color: rgb(16, 173, 127);
+  color: rgb(31, 51, 122);
 }
 .attribute ul li:nth-child(12) svg {
-  color: rgb(150, 163, 203);
+  color: rgb(147, 193, 44);
 }
 .attribute ul li:nth-child(13) svg {
-  color: rgb(33, 218, 87);
+  color: rgb(34, 100, 112);
 }
 .attribute ul li:nth-child(14) svg {
-  color: rgb(233, 60, 252);
+  color: rgb(180, 67, 64);
 }
 .attribute ul li:nth-child(15) svg {
-  color: rgb(42, 164, 116);
+  color: rgb(134, 160, 20);
 }
 .attribute ul li:nth-child(16) svg {
-  color: rgb(203, 142, 150);
+  color: rgb(63, 104, 105);
 }
 .attribute ul li:nth-child(17) svg {
-  color: rgb(105, 194, 72);
+  color: rgb(209, 247, 133);
 }
 .attribute ul li:nth-child(18) svg {
-  color: rgb(4, 215, 29);
+  color: rgb(240, 206, 160);
 }
 .attribute ul li:nth-child(19) svg {
-  color: rgb(182, 31, 109);
+  color: rgb(77, 2, 81);
 }
 .attribute ul li:nth-child(20) svg {
-  color: rgb(82, 242, 34);
+  color: rgb(1, 75, 195);
 }
 .attribute ul li:nth-child(21) svg {
-  color: rgb(82, 169, 239);
+  color: rgb(210, 156, 138);
 }
 .attribute ul li:nth-child(22) svg {
-  color: rgb(151, 137, 91);
+  color: rgb(82, 104, 64);
 }
 .attribute ul li:nth-child(23) svg {
-  color: rgb(180, 103, 176);
+  color: rgb(2, 146, 204);
 }
 .attribute ul li:nth-child(24) svg {
-  color: rgb(31, 122, 180);
+  color: rgb(145, 194, 167);
 }
 .attribute ul li:nth-child(25) svg {
-  color: rgb(168, 180, 55);
+  color: rgb(64, 142, 243);
 }
 .attribute ul li:nth-child(26) svg {
-  color: rgb(125, 237, 120);
+  color: rgb(169, 147, 81);
 }
 .attribute ul li:nth-child(27) svg {
-  color: rgb(176, 49, 1);
+  color: rgb(58, 175, 176);
 }
 .attribute ul li:nth-child(28) svg {
-  color: rgb(39, 246, 128);
+  color: rgb(92, 164, 204);
 }
 .attribute ul li:nth-child(29) svg {
-  color: rgb(232, 47, 215);
+  color: rgb(82, 119, 48);
 }
 .attribute ul li:nth-child(30) svg {
-  color: rgb(230, 44, 142);
+  color: rgb(174, 246, 102);
 }
 .attribute ul li:nth-child(31) svg {
-  color: rgb(6, 232, 120);
+  color: rgb(28, 10, 166);
 }
 .attribute ul li:nth-child(32) svg {
-  color: rgb(229, 208, 246);
+  color: rgb(24, 205, 6);
 }
 .attribute ul li:nth-child(33) svg {
-  color: rgb(107, 186, 132);
+  color: rgb(1, 234, 24);
 }
 .attribute ul li:nth-child(34) svg {
-  color: rgb(75, 32, 217);
+  color: rgb(146, 126, 58);
 }
 .attribute ul li:nth-child(35) svg {
-  color: rgb(3, 39, 140);
+  color: rgb(71, 49, 137);
 }
 .attribute ul li:nth-child(36) svg {
-  color: rgb(38, 141, 114);
+  color: rgb(144, 100, 250);
 }
 .attribute ul li:nth-child(37) svg {
-  color: rgb(148, 159, 129);
+  color: rgb(141, 153, 146);
 }
 .attribute ul li:nth-child(38) svg {
-  color: rgb(62, 229, 179);
+  color: rgb(15, 71, 26);
 }
 .attribute ul li:nth-child(39) svg {
-  color: rgb(216, 69, 160);
+  color: rgb(247, 76, 129);
 }
 .attribute ul li:nth-child(40) svg {
-  color: rgb(170, 219, 219);
+  color: rgb(220, 57, 42);
 }
 .attribute ul li:nth-child(41) svg {
-  color: rgb(85, 237, 167);
+  color: rgb(195, 31, 250);
 }
 .attribute ul li:nth-child(42) svg {
-  color: rgb(79, 72, 169);
+  color: rgb(47, 160, 174);
 }
 .attribute ul li:nth-child(43) svg {
-  color: rgb(70, 158, 236);
+  color: rgb(154, 137, 15);
 }
 .attribute ul li:nth-child(44) svg {
-  color: rgb(72, 180, 106);
+  color: rgb(174, 157, 145);
 }
 .attribute ul li:nth-child(45) svg {
-  color: rgb(185, 101, 221);
+  color: rgb(190, 70, 165);
 }
 .attribute ul li:nth-child(46) svg {
-  color: rgb(149, 241, 231);
+  color: rgb(108, 204, 190);
 }
 .attribute ul li:nth-child(47) svg {
-  color: rgb(172, 220, 242);
+  color: rgb(146, 22, 135);
 }
 .attribute ul li:nth-child(48) svg {
-  color: rgb(237, 150, 99);
+  color: rgb(244, 126, 136);
 }
 .attribute ul li:nth-child(49) svg {
-  color: rgb(152, 132, 181);
+  color: rgb(165, 118, 77);
 }
 .attribute ul li:nth-child(50) svg {
-  color: rgb(141, 166, 118);
+  color: rgb(176, 142, 82);
 }
 .attribute ul li:nth-child(51) svg {
-  color: rgb(247, 187, 151);
+  color: rgb(251, 235, 28);
 }
 .attribute ul li:nth-child(52) svg {
-  color: rgb(95, 95, 54);
+  color: rgb(58, 142, 13);
 }
 .attribute ul li:nth-child(53) svg {
-  color: rgb(112, 6, 61);
+  color: rgb(43, 51, 97);
 }
 .attribute ul li:nth-child(54) svg {
-  color: rgb(249, 179, 248);
+  color: rgb(39, 76, 101);
 }
 .attribute ul li:nth-child(55) svg {
-  color: rgb(189, 226, 137);
+  color: rgb(63, 25, 66);
 }
 .attribute ul li:nth-child(56) svg {
-  color: rgb(204, 130, 48);
+  color: rgb(137, 84, 27);
 }
 .attribute ul li:nth-child(57) svg {
-  color: rgb(123, 108, 103);
+  color: rgb(29, 73, 177);
 }
 .attribute ul li:nth-child(58) svg {
-  color: rgb(249, 109, 65);
+  color: rgb(113, 251, 84);
 }
 .attribute ul li:nth-child(59) svg {
-  color: rgb(184, 166, 76);
+  color: rgb(71, 61, 215);
 }
 .attribute ul li:nth-child(60) svg {
-  color: rgb(249, 95, 40);
+  color: rgb(187, 229, 220);
 }
 .attribute ul li:nth-child(61) svg {
-  color: rgb(47, 211, 193);
+  color: rgb(248, 201, 1);
 }
 .attribute ul li:nth-child(62) svg {
-  color: rgb(246, 191, 114);
+  color: rgb(18, 22, 198);
 }
 .attribute ul li:nth-child(63) svg {
-  color: rgb(143, 61, 31);
+  color: rgb(243, 208, 110);
 }
 .attribute ul li:nth-child(64) svg {
-  color: rgb(174, 89, 232);
+  color: rgb(247, 45, 245);
 }
 .attribute ul li:nth-child(65) svg {
-  color: rgb(182, 160, 240);
+  color: rgb(208, 98, 154);
 }
 .attribute ul li:nth-child(66) svg {
-  color: rgb(81, 55, 45);
+  color: rgb(69, 67, 227);
 }
 .attribute ul li:nth-child(67) svg {
-  color: rgb(24, 71, 23);
+  color: rgb(251, 185, 188);
 }
 .attribute ul li:nth-child(68) svg {
-  color: rgb(22, 235, 203);
+  color: rgb(243, 38, 175);
 }
 .attribute ul li:nth-child(69) svg {
-  color: rgb(116, 44, 37);
+  color: rgb(153, 8, 28);
 }
 .attribute ul li:nth-child(70) svg {
-  color: rgb(167, 88, 136);
+  color: rgb(99, 109, 133);
 }
 .attribute ul li:nth-child(71) svg {
-  color: rgb(66, 224, 112);
+  color: rgb(171, 226, 93);
 }
 .attribute ul li:nth-child(72) svg {
-  color: rgb(76, 28, 54);
+  color: rgb(102, 29, 195);
 }
 .attribute ul li:nth-child(73) svg {
-  color: rgb(167, 200, 215);
+  color: rgb(7, 171, 133);
 }
 .attribute ul li:nth-child(74) svg {
-  color: rgb(175, 191, 164);
+  color: rgb(88, 190, 207);
 }
 .attribute ul li:nth-child(75) svg {
-  color: rgb(208, 12, 218);
+  color: rgb(53, 161, 238);
 }
 .attribute ul li:nth-child(76) svg {
-  color: rgb(248, 64, 239);
+  color: rgb(82, 156, 223);
 }
 .attribute ul li:nth-child(77) svg {
-  color: rgb(229, 43, 201);
+  color: rgb(19, 135, 33);
 }
 .attribute ul li:nth-child(78) svg {
-  color: rgb(105, 226, 70);
+  color: rgb(101, 186, 229);
 }
 .attribute ul li:nth-child(79) svg {
-  color: rgb(147, 234, 219);
+  color: rgb(243, 52, 212);
 }
 .attribute ul li:nth-child(80) svg {
-  color: rgb(236, 169, 31);
+  color: rgb(96, 91, 50);
 }
 .attribute ul li:nth-child(81) svg {
-  color: rgb(64, 208, 63);
+  color: rgb(120, 146, 10);
 }
 .attribute ul li:nth-child(82) svg {
-  color: rgb(239, 205, 233);
+  color: rgb(109, 226, 156);
 }
 .attribute ul li:nth-child(83) svg {
-  color: rgb(62, 188, 53);
+  color: rgb(141, 70, 149);
 }
 .attribute ul li:nth-child(84) svg {
-  color: rgb(65, 89, 156);
+  color: rgb(217, 16, 183);
 }
 .attribute ul li:nth-child(85) svg {
-  color: rgb(140, 10, 54);
+  color: rgb(147, 193, 241);
 }
 .attribute ul li:nth-child(86) svg {
-  color: rgb(66, 45, 116);
+  color: rgb(125, 252, 113);
 }
 .attribute ul li:nth-child(87) svg {
-  color: rgb(198, 1, 111);
+  color: rgb(245, 146, 240);
 }
 .attribute ul li:nth-child(88) svg {
-  color: rgb(233, 122, 40);
+  color: rgb(221, 2, 116);
 }
 .attribute ul li:nth-child(89) svg {
-  color: rgb(106, 82, 63);
+  color: rgb(114, 67, 78);
 }
 .attribute ul li:nth-child(90) svg {
-  color: rgb(39, 9, 101);
+  color: rgb(103, 133, 161);
 }
 .attribute ul li:nth-child(91) svg {
-  color: rgb(231, 58, 163);
+  color: rgb(234, 93, 214);
 }
 .attribute ul li:nth-child(92) svg {
-  color: rgb(144, 19, 8);
+  color: rgb(144, 186, 216);
 }
 .attribute ul li:nth-child(93) svg {
-  color: rgb(187, 174, 230);
+  color: rgb(253, 162, 100);
 }
 .attribute ul li:nth-child(94) svg {
-  color: rgb(47, 139, 54);
+  color: rgb(149, 204, 241);
 }
 .attribute ul li:nth-child(95) svg {
-  color: rgb(202, 150, 205);
+  color: rgb(104, 53, 66);
 }
 .attribute ul li:nth-child(96) svg {
-  color: rgb(44, 114, 26);
+  color: rgb(23, 125, 191);
 }
 .attribute ul li:nth-child(97) svg {
-  color: rgb(142, 80, 63);
+  color: rgb(190, 176, 15);
 }
 .attribute ul li:nth-child(98) svg {
-  color: rgb(89, 79, 61);
+  color: rgb(254, 244, 105);
 }
 .attribute ul li:nth-child(99) svg {
-  color: rgb(166, 30, 178);
+  color: rgb(163, 4, 28);
 }
 .attribute ul li {
   color: #d4d4d4;
