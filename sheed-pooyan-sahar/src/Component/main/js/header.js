@@ -5,7 +5,6 @@ import '../../public/css/style.css'
 import '../../public/font/IranSans/css/styles.rtl.css';
 import Menu from '../../public/js/menu';
 import { Parallax } from 'react-parallax';
-import  { ScrollRotate } from 'react-scroll-rotate';
 
 function MainHeader() {
 

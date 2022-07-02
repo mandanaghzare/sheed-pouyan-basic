@@ -186,7 +186,7 @@ header{
             overflow: hidden;
             display: flex;
             align-items: center;
-            $num-colors: 100;
+            $num-colors: 20;
             @for $i from 0 to $num-colors {
                 &:nth-child(#{$i}) {
                     @include random-bc();
@@ -208,21 +208,20 @@ header{
 .attribute{
     padding: 4rem 3rem;
     display: flex;
-    align-items: center;
+    height: 300vh;
+    position: relative;
     .outter{
         bottom: unset;
-        top: 0rem;
-        position: relative;
+        top: 14%;
+        position: sticky;
         right: -145px;
         width: 50rem;
         height: 50rem;
-        transition: .5s ease all;
-        // transform: rotate(22.5deg);
+        transition: 1s ease all;
         img{
             transform: rotate(-67deg);
             height: 110%;
-            transition: .5s ease all;
-            // transition: 0ms;
+            transition: 1s ease all;
         }
     }
     .inner{
@@ -230,7 +229,11 @@ header{
         height: 50rem;
     }
     ul{
-        $num-colors: 100;
+        $num-colors: 5;
+        position: sticky;
+        right: 50%;
+        top: 40%;
+        height: 100vh;
         @for $i from 0 to $num-colors {
             li:nth-child(#{$i}) {
                 svg{
