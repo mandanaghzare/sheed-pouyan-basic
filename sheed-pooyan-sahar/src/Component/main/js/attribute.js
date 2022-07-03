@@ -4,11 +4,11 @@ import Aos from 'aos';
 
 function Attribute() {
   const elementRef = useRef()
-  // const elementTop = elementRef.current.offsetTop;
-  //   console.log(elementTop)
-    // if(window.scrollY > elementRef.current.offsetTop){
-    //   console.log(window.scrollY)
-    // }
+  const elementTop = elementRef.current;
+    console.log(elementTop)
+    if(window.scrollY > elementTop.offsetTop){
+      console.log(window.scrollY)
+    }
 
   // Aos
   useEffect(() => {
@@ -20,7 +20,6 @@ function Attribute() {
   const [rotatePolygon, setrotatePolygon] = useState();  
   useEffect(() => {
     window.addEventListener('scroll', ropoly);
-
     return () => {
       window.removeEventListener('scroll', ropoly);
     };
@@ -35,9 +34,9 @@ function Attribute() {
 
   return (
     <div className='attribute' ref={elementRef}>        
-      <div className="outter" style={{transform: `rotate(${(Math.trunc(rotatePolygon)*45) - 20}deg)`}}>
+      <div className="outter" style={{transform: `rotate(${(-Math.trunc(rotatePolygon)*45) - 20}deg)`}}>
         <div className="inner">
-            <img style={{transform: `rotate(${(-Math.trunc(rotatePolygon)*45) - 20}deg)`}} src={require('../../../img/361ba8f8.jpg')} alt="" />
+            <img style={{transform: `rotate(${(Math.trunc(rotatePolygon)*45) - 20}deg)`}} src={require('../../../img/361ba8f8.jpg')} alt="" />
         </div>
       </div>
       <ul>
