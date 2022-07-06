@@ -2,6 +2,7 @@ $text: #d4d4d4;
 $yellow: #FCC10D;
 $darkText: #404040;
 
+@import '../../articles/css/style.scss';
 
 @mixin random-bc(){
     border: 5px solid rgb(random(255), random(255), random(255));
@@ -244,6 +245,9 @@ header{
         li{
             color: $text;
             margin-bottom: 2rem;
+            transition: .3s ease all;
+            transform: translateX(100px);
+            opacity: 0;
             &:nth-child(even){
                 padding-right: 2rem;
             }

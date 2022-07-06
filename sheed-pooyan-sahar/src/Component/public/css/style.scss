@@ -16,6 +16,8 @@ ul{
 a, button{
     text-decoration: none;
     outline: none;
+    border: none;
+    background-color: inherit;
 }
 h2{
     color: #707070;
@@ -245,6 +247,12 @@ footer{
     p{
         color: $text;
         margin-bottom: 0px;
+    }
+}
+.subComponent{
+    nav{
+        padding: 1% 5%;
+        background-color: #44403c;
     }
 }
 

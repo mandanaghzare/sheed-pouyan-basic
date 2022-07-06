@@ -8370,6 +8370,8 @@ ul {
 a, button {
   text-decoration: none;
   outline: none;
+  border: none;
+  background-color: inherit;
 }
 
 h2 {
@@ -8602,6 +8604,11 @@ footer #_footerCover {
 footer p {
   color: #d4d4d4;
   margin-bottom: 0px;
+}
+
+.subComponent nav {
+  padding: 1% 5%;
+  background-color: #44403c;
 }
 
 @-webkit-keyframes glowing {
