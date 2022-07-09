@@ -4,6 +4,7 @@ $yellow: #FCC10D;
 $fa-font-path: "../font/fontawesome-free-6.1.1-web/webfonts";
 @import "../font/fontawesome-free-6.1.1-web/scss/fontawesome.scss";
 @import "../font/fontawesome-free-6.1.1-web/scss/solid.scss";
+@import '../../articles/css/style.scss';
 
 
 body{
@@ -17,7 +18,9 @@ a, button{
     text-decoration: none;
     outline: none;
     border: none;
-    background-color: inherit;
+}
+a:hover{
+    color: inherit!important;
 }
 h2{
     color: #707070;
@@ -128,7 +131,7 @@ nav{
             width: 100%;
             justify-content: space-between;
             li:nth-child(even){
-                color: #707070;
+                color: rgb(112, 112, 112);
             }
         }
     }
@@ -252,7 +255,9 @@ footer{
 .subComponent{
     nav{
         padding: 1% 5%;
-        background-color: #44403c;
+        background-color: rgba(0, 0, 0, 0.5);        
+        backdrop-filter: blur(30px);
+        backdrop-filter: brightness(15px);
     }
 }
 

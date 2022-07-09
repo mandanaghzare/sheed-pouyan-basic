@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Mousewheel, Pagination } from "swiper";
-import { AiOutlineCalendar } from 'react-icons/ai'
 
 function TextSlide() {
   return (

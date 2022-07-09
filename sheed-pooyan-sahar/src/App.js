@@ -1,12 +1,12 @@
 
-import Main from './Component/main/js/main';
+import Main from './Component/main/js/Main';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import Articles from './Component/articles/js/article';
+import Article from './Component/article/js/Article';
 
 function App() {
   return (
     <ParallaxProvider>
-      <Articles />
+      <Article />
     </ParallaxProvider>
   );
 }

@@ -1,7 +1,3 @@
-.Articles #discription {
-  padding: 3%;
-}
-
 header .backHeader {
   width: 100%;
   height: 80vh;
@@ -172,64 +168,64 @@ header .react-parallax .react-parallax-content {
   align-items: center;
 }
 .main-products .mySwiper .slideItem:nth-child(0) {
-  border: 5px solid rgb(185, 247, 11);
+  border: 5px solid rgb(143, 216, 144);
 }
 .main-products .mySwiper .slideItem:nth-child(1) {
-  border: 5px solid rgb(198, 60, 54);
+  border: 5px solid rgb(23, 68, 68);
 }
 .main-products .mySwiper .slideItem:nth-child(2) {
-  border: 5px solid rgb(86, 34, 79);
+  border: 5px solid rgb(197, 91, 91);
 }
 .main-products .mySwiper .slideItem:nth-child(3) {
-  border: 5px solid rgb(85, 139, 203);
+  border: 5px solid rgb(243, 199, 210);
 }
 .main-products .mySwiper .slideItem:nth-child(4) {
-  border: 5px solid rgb(44, 40, 110);
+  border: 5px solid rgb(209, 229, 227);
 }
 .main-products .mySwiper .slideItem:nth-child(5) {
-  border: 5px solid rgb(120, 116, 165);
+  border: 5px solid rgb(146, 127, 37);
 }
 .main-products .mySwiper .slideItem:nth-child(6) {
-  border: 5px solid rgb(140, 202, 143);
+  border: 5px solid rgb(68, 14, 104);
 }
 .main-products .mySwiper .slideItem:nth-child(7) {
-  border: 5px solid rgb(115, 29, 148);
+  border: 5px solid rgb(33, 116, 231);
 }
 .main-products .mySwiper .slideItem:nth-child(8) {
-  border: 5px solid rgb(46, 134, 40);
+  border: 5px solid rgb(16, 212, 54);
 }
 .main-products .mySwiper .slideItem:nth-child(9) {
-  border: 5px solid rgb(212, 229, 100);
+  border: 5px solid rgb(248, 59, 201);
 }
 .main-products .mySwiper .slideItem:nth-child(10) {
-  border: 5px solid rgb(130, 23, 162);
+  border: 5px solid rgb(252, 16, 156);
 }
 .main-products .mySwiper .slideItem:nth-child(11) {
-  border: 5px solid rgb(251, 145, 136);
+  border: 5px solid rgb(236, 9, 239);
 }
 .main-products .mySwiper .slideItem:nth-child(12) {
-  border: 5px solid rgb(55, 39, 248);
+  border: 5px solid rgb(238, 52, 224);
 }
 .main-products .mySwiper .slideItem:nth-child(13) {
-  border: 5px solid rgb(24, 122, 136);
+  border: 5px solid rgb(82, 110, 186);
 }
 .main-products .mySwiper .slideItem:nth-child(14) {
-  border: 5px solid rgb(33, 173, 165);
+  border: 5px solid rgb(41, 3, 193);
 }
 .main-products .mySwiper .slideItem:nth-child(15) {
-  border: 5px solid rgb(49, 164, 69);
+  border: 5px solid rgb(39, 122, 147);
 }
 .main-products .mySwiper .slideItem:nth-child(16) {
-  border: 5px solid rgb(202, 255, 68);
+  border: 5px solid rgb(19, 72, 210);
 }
 .main-products .mySwiper .slideItem:nth-child(17) {
-  border: 5px solid rgb(224, 119, 110);
+  border: 5px solid rgb(129, 247, 127);
 }
 .main-products .mySwiper .slideItem:nth-child(18) {
-  border: 5px solid rgb(155, 151, 87);
+  border: 5px solid rgb(53, 9, 209);
 }
 .main-products .mySwiper .slideItem:nth-child(19) {
-  border: 5px solid rgb(67, 227, 174);
+  border: 5px solid rgb(150, 39, 235);
 }
 .main-products .mySwiper .slideItem img {
   width: 100%;
@@ -273,19 +269,19 @@ header .react-parallax .react-parallax-content {
   height: 100vh;
 }
 .attribute ul li:nth-child(0) svg {
-  color: rgb(95, 233, 63);
+  color: rgb(1, 85, 135);
 }
 .attribute ul li:nth-child(1) svg {
-  color: rgb(207, 23, 189);
+  color: rgb(49, 40, 32);
 }
 .attribute ul li:nth-child(2) svg {
-  color: rgb(221, 104, 105);
+  color: rgb(144, 73, 161);
 }
 .attribute ul li:nth-child(3) svg {
-  color: rgb(130, 9, 28);
+  color: rgb(214, 34, 41);
 }
 .attribute ul li:nth-child(4) svg {
-  color: rgb(229, 98, 13);
+  color: rgb(116, 22, 49);
 }
 .attribute ul li {
   color: #d4d4d4;
