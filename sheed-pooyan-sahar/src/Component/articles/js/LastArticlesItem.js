@@ -1,7 +1,7 @@
 import React from 'react'
 
-function TopArticleLIstItem() {
-  return (    
+function LastArticlesItem() {
+  return (
     <div className="item">
         <div id="__img">
             <img src={require('../../../img/istockphoto.jpg')} alt="" />
@@ -13,4 +13,4 @@ function TopArticleLIstItem() {
   )
 }
 
-export default TopArticleLIstItem
+export default LastArticlesItem

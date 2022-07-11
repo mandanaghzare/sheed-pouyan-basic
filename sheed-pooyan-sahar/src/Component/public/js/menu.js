@@ -35,7 +35,10 @@ function Menu() {
           <li><a>ارتباط با ما</a></li>
         </ul>
       </div>
-      <a className="language">Eng</a>
+      <div id="_button">
+        <a className="language">Eng</a>
+        <a className="signIn">ورود</a>
+      </div>
     </nav>
   )
 }
