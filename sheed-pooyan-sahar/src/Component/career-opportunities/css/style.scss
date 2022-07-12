@@ -38,6 +38,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            top: 2rem;
             p{
                 color: #A3A3A3;
                 text-align: center;
@@ -50,9 +51,14 @@
                 button{
                     width: 48%;
                     background-color: #EFB401;
+                    color: #404040;
                     border-radius: 4px;
                     color: #404040;
                     padding: .5rem;
+                    transition: .3s ease all;
+                    &:hover{
+                        background-color: #d6a100;
+                    }
                 }
             }
         }
@@ -80,9 +86,16 @@
                 border-top: none;
                 border-left: none;
                 padding-right: 2rem;
+                height: 40px;
+                overflow: hidden;
+                margin-bottom: 4rem;
+                &.show{
+                    height: max-content;
+                }
                 ._title{
                     margin-bottom: 1rem;
                     font-size: 16px;
+                    cursor: pointer;
                 }
                 ._item{
                     margin-bottom: 2rem;

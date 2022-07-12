@@ -1,0 +1,134 @@
+.resume{
+    #_content{
+        padding: 6rem;
+        #_header{
+            width: max-content;
+            margin: 0 auto 5rem;
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 70px;
+            border-bottom: 1px solid #707070;
+            button{
+                cursor: pointer;
+                width: max-content;
+                background-color: transparent;
+                color: #A3A3A3;
+                font-size: 30px;
+                pointer-events: none;
+                transition: .2s ease all;
+                &.absolute{
+                    position: absolute;
+                    font-size: 12px;
+                    pointer-events: inherit;
+                    &#_resume_sending{
+                        transform: translateX(150%);
+                        transition: .2s ease all;
+                    }
+                    &#_personal_info{
+                        transform: translateX(-200%);
+                        transition: .2s ease all;
+                        // transition: .1s ease font-size;
+                    }
+                }
+            }
+        }
+        #_information{
+            margin-bottom: 3rem;
+            input{
+                background-color: transparent;
+                width: 100%;
+                border-top: none;
+                border-color: #707070;
+                margin-bottom: 2rem;
+                color: #A8A29E;
+            }
+            .col-md-6:nth-child(odd){
+                input{
+                    border-left: none;
+                }                    
+            }
+            .col-md-6:nth-child(even){
+                input{
+                    text-align: left;
+                    border-right: none;
+                }                    
+            }
+            #_profession{
+                color: #A8A29E;
+                #_choosen{
+                    border: 1px solid #707070;
+                    border-top: none;
+                    border-left: none;
+                    margin-bottom: .5rem;
+                    padding: 1rem;
+                }
+                #_list{
+                    padding: 1rem;
+                    border: 1px solid;
+                    ul{
+                        max-height: 10rem;
+                        overflow: auto;
+                        &::-webkit-scrollbar{
+                            width: .7rem;
+                        }
+                        &::-webkit-scrollbar-track{
+                            background-color: #696969;
+                            border-radius: 20px;
+                        }
+                        &::-webkit-scrollbar-thumb{
+                            border: 3px solid #707070;
+                            background-color: #3b3b3b;
+                            border-radius: 20px;
+                            width: .5rem;
+                            background-clip: padding-box;
+                            &:hover{
+                                background-color: #222222;
+                            }
+                        }
+                        li{
+                            margin-bottom: 1rem;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        #_cv{
+            width: 30%;
+            color: #bbb;
+            text-align: center;
+            margin: 4rem auto;
+            input{
+                display: none;
+            }
+            label{
+                width: 100%;
+                padding: 6rem 3rem;
+                border: 1px solid #aaa;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 2em;
+            }
+            p{
+                margin-top: 1rem;
+            }
+        }
+        .button{
+            width: 100%;
+            text-align: center;
+            button{
+                width: 100px;
+                background-color: #EFB401;
+                color: #404040;
+                border-radius: 4px;
+                color: #404040;
+                padding: .5rem;
+                transition: .3s ease all;
+                &:hover{
+                    background-color: #d6a100;
+                }
+            }
+        }
+    }
+}

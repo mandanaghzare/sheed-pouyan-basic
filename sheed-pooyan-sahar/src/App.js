@@ -1,12 +1,13 @@
 
 import Main from './Component/main/js/Main';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import CareerOpportunities from './Component/career-opportunities/js/CareerOpportunities';
+import Resume from './Component/cv/js/Resume';
+import ContactUsPage from './Component/contact-us/js/ContactUs';
 
 function App() {
   return (
     <ParallaxProvider>
-      <CareerOpportunities />
+      <ContactUsPage />
     </ParallaxProvider>
   );
 }

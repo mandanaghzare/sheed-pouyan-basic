@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CareerItem from './CareerItem'
 
 function Careers() {
+
+  const [showItem, setshowItem] = useState(false);
+  const showCareer = () => {
+      setshowItem(!showItem)
+  }
+
   return (    
-    <div className="item">
-        <div className="_title">توسعه دهنده وب</div>
+    <div className={`item${showItem ? ' show' : ''}`}>
+        <div className="_title" onClick={showCareer}>توسعه دهنده وب</div>
         <CareerItem />
         <CareerItem />
     </div>

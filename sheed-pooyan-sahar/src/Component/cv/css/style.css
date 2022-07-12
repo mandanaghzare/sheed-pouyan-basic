@@ -1,0 +1,131 @@
+.resume #_content {
+  padding: 6rem;
+}
+.resume #_content #_header {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #707070;
+}
+.resume #_content #_header button {
+  cursor: pointer;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: transparent;
+  color: #A3A3A3;
+  font-size: 30px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+.resume #_content #_header button.absolute {
+  position: absolute;
+  font-size: 12px;
+  pointer-events: inherit;
+}
+.resume #_content #_header button.absolute#_resume_sending {
+  transform: translateX(150%);
+  transition: 0.2s ease all;
+}
+.resume #_content #_header button.absolute#_personal_info {
+  transform: translateX(-200%);
+  transition: 0.2s ease all;
+}
+.resume #_content #_information {
+  margin-bottom: 3rem;
+}
+.resume #_content #_information input {
+  background-color: transparent;
+  width: 100%;
+  border-top: none;
+  border-color: #707070;
+  margin-bottom: 2rem;
+  color: #A8A29E;
+}
+.resume #_content #_information .col-md-6:nth-child(odd) input {
+  border-left: none;
+}
+.resume #_content #_information .col-md-6:nth-child(even) input {
+  text-align: left;
+  border-right: none;
+}
+.resume #_content #_information #_profession {
+  color: #A8A29E;
+}
+.resume #_content #_information #_profession #_choosen {
+  border: 1px solid #707070;
+  border-top: none;
+  border-left: none;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+.resume #_content #_information #_profession #_list {
+  padding: 1rem;
+  border: 1px solid;
+}
+.resume #_content #_information #_profession #_list ul {
+  max-height: 10rem;
+  overflow: auto;
+}
+.resume #_content #_information #_profession #_list ul::-webkit-scrollbar {
+  width: 0.7rem;
+}
+.resume #_content #_information #_profession #_list ul::-webkit-scrollbar-track {
+  background-color: #696969;
+  border-radius: 20px;
+}
+.resume #_content #_information #_profession #_list ul::-webkit-scrollbar-thumb {
+  border: 3px solid #707070;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  width: 0.5rem;
+  background-clip: padding-box;
+}
+.resume #_content #_information #_profession #_list ul::-webkit-scrollbar-thumb:hover {
+  background-color: #222222;
+}
+.resume #_content #_information #_profession #_list ul li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.resume #_content #_cv {
+  width: 30%;
+  color: #bbb;
+  text-align: center;
+  margin: 4rem auto;
+}
+.resume #_content #_cv input {
+  display: none;
+}
+.resume #_content #_cv label {
+  width: 100%;
+  padding: 6rem 3rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2em;
+}
+.resume #_content #_cv p {
+  margin-top: 1rem;
+}
+.resume #_content .button {
+  width: 100%;
+  text-align: center;
+}
+.resume #_content .button button {
+  width: 100px;
+  background-color: #EFB401;
+  color: #404040;
+  border-radius: 4px;
+  color: #404040;
+  padding: 0.5rem;
+  transition: 0.3s ease all;
+}
+.resume #_content .button button:hover {
+  background-color: #d6a100;
+}/*# sourceMappingURL=style.css.map */

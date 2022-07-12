@@ -8,6 +8,7 @@ function CareerItem() {
     }
 
     const id = useId()
+
   return (    
     <div className="_item">
         <div className="__item_title">
