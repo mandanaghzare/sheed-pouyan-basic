@@ -1,7 +1,9 @@
 import React from 'react';
 import Footer from '../../public/js/Footer';
 import Menu from '../../public/js/Menu';
-import '../css/style.css'
+import '../css/style.css';
+import { BsTelephone } from 'react-icons/bs';
+import { AiOutlineMail } from 'react-icons/ai';
 
 function ContactUsPage() {
   return (
@@ -16,8 +18,8 @@ function ContactUsPage() {
                     <button type="">ارسال</button>
                 </div>
             </form>            
-            <a href="tel:09121234567">09121234567</a>
-            <a href="mailto:name@gmail.com">EMAIL@YAHOO.COM</a>
+            <a href="tel:09121234567">09121234567 <BsTelephone /></a>
+            <a href="mailto:name@gmail.com">EMAIL@YAHOO.COM <AiOutlineMail /></a>
         </div>
        <Footer /> 
     </div>

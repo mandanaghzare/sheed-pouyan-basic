@@ -1,10 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Footer from '../../public/js/Footer';
 import Menu from '../../public/js/Menu';
 import '../css/style.css';
+import { useDropzone } from 'react-dropzone';
 
 function Resume() {
+    let fileVal = useRef();
+    fileVal.current = '';
+    // useEffect(() => {
+    //     console.log(fileVal)
+    // })
     const [position, setPosition] = useState(false);
+    const { getRootProps, getInputProps, acceptedFiles } = useDropzone({});
+    const files = acceptedFiles.map((file) => (
+        <p ref={fileVal} id="cvfile" key={file.path}>
+          {/* {file.path} \ln {file.size/1000} kb */}
+        </p>,
+        fileVal.current =  `${file.path} - ${file.size/1000}kb`
+      ));
+
+      const handleInputClick = () => {
+        console.log('handleParentClick');
+      }
+
+      const handleLabelClick = (e) => {
+        e.stopPropagation();
+        console.log('handleLabelClick');
+      }      
 
   return (
     <div className="resume subComponent">
@@ -64,9 +86,11 @@ function Resume() {
                     </div>
                 </div>
             </div>
-            <div id="_cv" style={position ? {display:'none'} : {}}>
-                <input type="file" id="_file" />
-                <label htmlFor="_file">فایل را برای آپلود انتخاب کنید یا بکشید و رها کنید</label>
+            <div {...getRootProps({ className: "dropzone" })} id="_cv" style={position ? {display:'none'} : {}}>
+                <input onClick={handleInputClick} type="file" id="_file" {...getInputProps()} />
+                <label onClick={handleLabelClick} htmlFor="_file">
+                    {fileVal.current == '' ? 'فایل را برای آپلود انتخاب کنید یا بکشید و رها کنید' : files}
+                </label>
                 <p>رزومه خودتون رو بفرستید بعد از بررسی باهاتون تماس میگیریم</p>
             </div>
             <div className="button">

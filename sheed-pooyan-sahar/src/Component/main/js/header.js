@@ -80,7 +80,7 @@ function MainHeader() {
     <header>
       <div className="backHeader">
         <Parallax bgImage={require("../../../img/istockphoto.jpg")} strength={500}>
-          <div className={`headerCover ${stickyClass}`} style={{'height': handleScroll + "%"}}>
+          <div className={`headerCover ${stickyClass}`} style={{'height': handleScroll + "vh"}}>
             <Menu></Menu>
           </div>
         </Parallax>

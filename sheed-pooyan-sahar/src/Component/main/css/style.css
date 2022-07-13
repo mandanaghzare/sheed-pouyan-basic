@@ -22,13 +22,13 @@ header .backHeader .headerCover.relative {
   padding: 2% 3%;
 }
 header .backHeader .headerCover.fixed {
-  padding: 1% 3%;
+  padding: 0.5rem 3rem;
   width: 100%;
   top: 0px;
   z-index: 100;
 }
 header .backHeader .headerCover.fixed nav .logo {
-  height: 60px;
+  height: 7vh;
 }
 header .react-parallax {
   width: 100%;
@@ -168,64 +168,64 @@ header .react-parallax .react-parallax-content {
   align-items: center;
 }
 .main-products .mySwiper .slideItem:nth-child(0) {
-  border: 5px solid rgb(216, 49, 75);
+  border: 5px solid rgb(177, 224, 54);
 }
 .main-products .mySwiper .slideItem:nth-child(1) {
-  border: 5px solid rgb(109, 245, 75);
+  border: 5px solid rgb(15, 184, 4);
 }
 .main-products .mySwiper .slideItem:nth-child(2) {
-  border: 5px solid rgb(100, 61, 179);
+  border: 5px solid rgb(113, 193, 145);
 }
 .main-products .mySwiper .slideItem:nth-child(3) {
-  border: 5px solid rgb(62, 226, 251);
+  border: 5px solid rgb(110, 242, 180);
 }
 .main-products .mySwiper .slideItem:nth-child(4) {
-  border: 5px solid rgb(130, 247, 253);
+  border: 5px solid rgb(220, 248, 68);
 }
 .main-products .mySwiper .slideItem:nth-child(5) {
-  border: 5px solid rgb(57, 2, 146);
+  border: 5px solid rgb(168, 187, 195);
 }
 .main-products .mySwiper .slideItem:nth-child(6) {
-  border: 5px solid rgb(211, 6, 78);
+  border: 5px solid rgb(251, 222, 43);
 }
 .main-products .mySwiper .slideItem:nth-child(7) {
-  border: 5px solid rgb(223, 44, 145);
+  border: 5px solid rgb(176, 177, 64);
 }
 .main-products .mySwiper .slideItem:nth-child(8) {
-  border: 5px solid rgb(95, 139, 44);
+  border: 5px solid rgb(78, 233, 163);
 }
 .main-products .mySwiper .slideItem:nth-child(9) {
-  border: 5px solid rgb(114, 234, 12);
+  border: 5px solid rgb(197, 98, 173);
 }
 .main-products .mySwiper .slideItem:nth-child(10) {
-  border: 5px solid rgb(188, 74, 214);
+  border: 5px solid rgb(151, 131, 71);
 }
 .main-products .mySwiper .slideItem:nth-child(11) {
-  border: 5px solid rgb(203, 211, 151);
+  border: 5px solid rgb(98, 195, 98);
 }
 .main-products .mySwiper .slideItem:nth-child(12) {
-  border: 5px solid rgb(133, 38, 196);
+  border: 5px solid rgb(187, 234, 251);
 }
 .main-products .mySwiper .slideItem:nth-child(13) {
-  border: 5px solid rgb(127, 181, 94);
+  border: 5px solid rgb(42, 100, 87);
 }
 .main-products .mySwiper .slideItem:nth-child(14) {
-  border: 5px solid rgb(182, 1, 192);
+  border: 5px solid rgb(85, 65, 158);
 }
 .main-products .mySwiper .slideItem:nth-child(15) {
-  border: 5px solid rgb(115, 119, 98);
+  border: 5px solid rgb(114, 174, 53);
 }
 .main-products .mySwiper .slideItem:nth-child(16) {
-  border: 5px solid rgb(144, 188, 70);
+  border: 5px solid rgb(8, 60, 188);
 }
 .main-products .mySwiper .slideItem:nth-child(17) {
-  border: 5px solid rgb(197, 180, 194);
+  border: 5px solid rgb(167, 37, 214);
 }
 .main-products .mySwiper .slideItem:nth-child(18) {
-  border: 5px solid rgb(18, 176, 222);
+  border: 5px solid rgb(249, 143, 102);
 }
 .main-products .mySwiper .slideItem:nth-child(19) {
-  border: 5px solid rgb(12, 249, 52);
+  border: 5px solid rgb(71, 83, 192);
 }
 .main-products .mySwiper .slideItem img {
   width: 100%;
@@ -248,8 +248,8 @@ header .react-parallax .react-parallax-content {
   position: -webkit-sticky;
   position: sticky;
   right: -145px;
-  width: 50rem;
-  height: 50rem;
+  width: 45rem;
+  height: 45rem;
   transition: 1s ease all;
 }
 .attribute .outter img {
@@ -258,8 +258,8 @@ header .react-parallax .react-parallax-content {
   transition: 1s ease all;
 }
 .attribute .inner {
-  width: 50rem;
-  height: 50rem;
+  width: 45rem;
+  height: 45rem;
 }
 .attribute ul {
   position: -webkit-sticky;
@@ -269,19 +269,19 @@ header .react-parallax .react-parallax-content {
   height: 100vh;
 }
 .attribute ul li:nth-child(0) svg {
-  color: rgb(10, 201, 169);
+  color: rgb(207, 197, 215);
 }
 .attribute ul li:nth-child(1) svg {
-  color: rgb(38, 29, 239);
+  color: rgb(54, 216, 182);
 }
 .attribute ul li:nth-child(2) svg {
-  color: rgb(22, 66, 90);
+  color: rgb(220, 134, 166);
 }
 .attribute ul li:nth-child(3) svg {
-  color: rgb(108, 193, 147);
+  color: rgb(230, 193, 169);
 }
 .attribute ul li:nth-child(4) svg {
-  color: rgb(26, 66, 111);
+  color: rgb(40, 75, 238);
 }
 .attribute ul li {
   color: #d4d4d4;

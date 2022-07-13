@@ -1,4 +1,5 @@
 import React, { useState, useId } from 'react'
+import { Link } from 'react-router-dom';
 import Footer from '../../public/js/Footer';
 import Menu from '../../public/js/Menu';
 import '../css/style.css';
@@ -22,7 +23,7 @@ function CareerOpportunities() {
                     <p>درخواست خود را برای آگهی های انتخاب شده ارسال کنید</p>
                     <div id="_buttons">
                         <button type="">ارسال</button>
-                        <button type="">ویرایش  اطلاعات</button>
+                        <Link to="/resume">ویرایش  اطلاعات</Link>
                     </div>
                 </div>
             </div>

@@ -34,13 +34,13 @@ header{
                 padding: 2% 3%;
             }
             &.fixed{
-                padding: 1% 3%;
+                padding: .5rem 3rem;
                 width: 100%;
                 top: 0px;
                 z-index: 100;
                 nav{
                     .logo{
-                        height: 60px;
+                        height: 7vh;
                     }
                 }
             }
@@ -215,8 +215,8 @@ header{
         top: 14%;
         position: sticky;
         right: -145px;
-        width: 50rem;
-        height: 50rem;
+        width: 45rem;
+        height: 45rem;
         transition: 1s ease all;
         img{
             transform: rotate(-67deg);
@@ -225,8 +225,8 @@ header{
         }
     }
     .inner{
-        width: 50rem;
-        height: 50rem;
+        width: 45rem;
+        height: 45rem;
     }
     ul{
         $num-colors: 5;

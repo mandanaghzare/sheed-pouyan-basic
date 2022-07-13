@@ -50,7 +50,7 @@
   display: flex;
   justify-content: space-between;
 }
-.careerOpportunities .row .position-sticky #_buttons button {
+.careerOpportunities .row .position-sticky #_buttons button, .careerOpportunities .row .position-sticky #_buttons a {
   width: 48%;
   background-color: #EFB401;
   color: #404040;
@@ -58,8 +58,9 @@
   color: #404040;
   padding: 0.5rem;
   transition: 0.3s ease all;
+  text-align: center;
 }
-.careerOpportunities .row .position-sticky #_buttons button:hover {
+.careerOpportunities .row .position-sticky #_buttons button:hover, .careerOpportunities .row .position-sticky #_buttons a:hover {
   background-color: #d6a100;
 }
 .careerOpportunities .row .col-md-8 {

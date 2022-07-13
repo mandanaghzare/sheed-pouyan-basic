@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1599.98px) {
+  .attribute .outter, .attribute .inner {
+    width: 30rem;
+    height: 30rem;
+  }
+  .attribute .outter {
+    top: 20%;
+  }
+  .attribute ul {
+    top: 35%;
+  }
+  .articleSlider {
+    width: 90%;
+  }
+  .main-contactUs {
+    padding: 0rem;
+    height: 100vh;
+    background-size: 20rem;
+    font-size: 18px;
+  }
+  .main-about-us #_square_text_box {
+    width: 25rem;
+    height: 25rem;
+  }
+  .main-about-us #_square_text_box p {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
