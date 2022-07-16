@@ -117,8 +117,15 @@ h2{
         bottom: -13px;
         top: auto;
       }
+      .navbarMenu{
+          svg{
+              display: none;
+                  }
+      }
 nav{
     transition: .3s ease all;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     color: $text;
     .logo{
@@ -129,6 +136,7 @@ nav{
         width: 55%;
         ul{
             width: 100%;
+            display: flex;
             justify-content: space-between;
             li:nth-child(even){
                 color: rgb(112, 112, 112);
@@ -172,7 +180,7 @@ nav{
     &::before{
         content: '\f178';
         width: 3rem;
-        height: 3rem;
+        height: 100%;
         position: absolute;
         left: 0px;
         opacity: 1;

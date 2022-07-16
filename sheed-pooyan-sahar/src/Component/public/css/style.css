@@ -8638,8 +8638,14 @@ h2 {
   top: auto;
 }
 
+.navbarMenu svg {
+  display: none;
+}
+
 nav {
   transition: 0.3s ease all;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   color: #d4d4d4;
 }
@@ -8652,6 +8658,7 @@ nav .menu {
 }
 nav .menu ul {
   width: 100%;
+  display: flex;
   justify-content: space-between;
 }
 nav .menu ul li:nth-child(even) {
@@ -8693,7 +8700,7 @@ nav .language:hover, nav .signIn:hover {
 #_yellow_btn::before {
   content: "\f178";
   width: 3rem;
-  height: 3rem;
+  height: 100%;
   position: absolute;
   left: 0px;
   opacity: 1;

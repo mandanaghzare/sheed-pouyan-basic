@@ -24,6 +24,11 @@ export default function Articles() {
         mousewheel={true}
         modules={[Mousewheel, Pagination]}
         className="mySwiper"
+        breakpoints={{
+          768: {
+            slidesPerView: 1,
+          },
+        }}
       >
         <SwiperSlide>
           <a>

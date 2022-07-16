@@ -27,9 +27,9 @@ header{
             width: 95%;
             height: 71%;
             padding: 2% 3%;
-            position: fixed;
             background-color: rgba(0,0,0,.8);
             transition: .2s ease width;
+            position: fixed;
             &.relative{
                 padding: 2% 3%;
             }
