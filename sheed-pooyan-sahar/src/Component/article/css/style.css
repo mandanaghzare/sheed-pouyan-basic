@@ -8,8 +8,12 @@
   overflow: hidden;
   position: relative;
 }
+.article #_header #__img {
+  height: 100%;
+}
 .article #_header #__img img {
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 .article #_header #__title {
   width: 50%;
@@ -82,7 +86,7 @@
   margin-bottom: 30px;
   text-align: center;
   color: #fff;
-  top: 150%;
+  top: 95%;
   border: 1px solid #707070;
   background-color: #707070;
   display: flex;
@@ -106,10 +110,10 @@
   border-right: 10px solid transparent;
   border-bottom: 10px solid #707070;
 }
-.article #_content #_rightOne #_footer #__social_media a {
+.article #_content #_rightOne #_footer #__social_media button {
   margin: 0em 0.5em;
 }
-.article #_content #_rightOne #_footer #__social_media a svg path {
+.article #_content #_rightOne #_footer #__social_media button svg path {
   width: 0.5em;
 }
 .article #_content #_rightOne #_comment {
@@ -173,6 +177,9 @@
   padding: 5%;
   font-size: 1.2em;
   width: 60%;
+}
+.article #_content #_leftOne #_list .item #__title p {
+  margin-bottom: 0;
 }
 .article #_content #_leftOne button {
   margin-top: 0px;

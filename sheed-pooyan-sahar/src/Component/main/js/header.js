@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../css/style.css';
-import '../../public/css/style.css'
 import '../../public/font/IranSans/css/styles.rtl.css';
 import Menu from '../../public/js/Menu';
 import { Parallax } from 'react-parallax';

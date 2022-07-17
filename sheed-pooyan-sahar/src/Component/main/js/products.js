@@ -17,12 +17,31 @@ function Products() {
         <Swiper
             data-fesa-num="8"
             // direction={"horizontal"}
-            slidesPerView={4}
+            slidesPerView={1.4}
             // spaceBetween={30}
+            loop={true}
+            centeredSlides={true}
             speed={1000}
             mousewheel={true}
             modules={[Pagination]}
             className="mySwiper"
+            breakpoints={{
+              1600: {
+                slidesPerView: 7.8,
+              },
+              1200: {
+                slidesPerView: 5.8,
+              },
+              991: {
+                slidesPerView: 4.8,
+              },
+              768: {
+                slidesPerView: 3.8,
+              },
+              576: {
+                slidesPerView: 2.8,
+              },
+            }}
         >
                 <SwiperSlide className="slideItem">
                     <a><img src={require('../../../img/photo-14.jpg')} alt="" /></a>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Menu from '../../public/js/Menu';
-import '../css/style.css';
 import { AiOutlineUser } from 'react-icons/ai';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { BsShare } from 'react-icons/bs';
@@ -13,6 +12,12 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 import TopArticleLIstItem from '../../articles/js/TopArticleLIstItem';
 import LastArticlesItem from '../../articles/js/LastArticlesItem';
 import Footer from '../../public/js/Footer';
+import {
+  LinkedinShareButton,
+  TelegramShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+} from "react-share";
 
 
 function Article() {
@@ -65,10 +70,10 @@ function Article() {
                   <button onClick={heartIcon}><BsSuitHeartFill className={`${redHeart ? 'red' : '' }`} /></button>
                   <button onClick={socialMedia}><BsShare />
                     <div id="__social_media" className={`${showSm ? 'show' : ''}`}>
-                      <a href="https://www.linkedin.com/"><AiOutlineLinkedin /></a>
-                      <a href=""><FiTwitter /></a>
-                      <a href=""><AiOutlineInstagram /></a>
-                      <a href=""><ImWhatsapp /></a>
+                      <TwitterShareButton><AiOutlineLinkedin /></TwitterShareButton>
+                      <TelegramShareButton><FiTwitter /></TelegramShareButton>
+                      <LinkedinShareButton><AiOutlineInstagram /></LinkedinShareButton>
+                      <WhatsappShareButton url={'https://seebmagazine.com/skin-care-for-teens/'}><ImWhatsapp /></WhatsappShareButton>
                     </div>
                   </button>
                 </div>

@@ -9,8 +9,10 @@
         overflow: hidden;
         position: relative;
         #__img{
+            height: 100%;
             img{
-                width: 100%;
+                min-width: 100%;
+                min-height: 100%;
             }
         }
         #__title{
@@ -82,7 +84,7 @@
                     margin-bottom:30px; 
                     text-align:center;
                     color:#fff;
-                    top: 150%;
+                    top: 95%;
                     border: 1px solid #707070;
                     background-color: #707070;
                     display: flex;
@@ -105,7 +107,7 @@
                         border-right: 10px solid transparent;
                         border-bottom: 10px solid #707070; 
                     }
-                    a{
+                    button{
                         margin: 0em 0.5em;
                         svg{
                             path{
@@ -180,6 +182,9 @@
                         padding: 5%;
                         font-size: 1.2em;
                         width: 60%;
+                        p{
+                            margin-bottom: 0;
+                        }
                     }
                 }
             }

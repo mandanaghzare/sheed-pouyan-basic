@@ -159,4 +159,7 @@
   padding: 5%;
   font-size: 1.2em;
   width: 60%;
+}
+.Articles #_content #_leftOne #_list .item #__title p {
+  margin-bottom: 0px;
 }/*# sourceMappingURL=style.css.map */

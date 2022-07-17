@@ -24,12 +24,13 @@
   position: absolute;
   color: #A3A3A3;
   padding: 4rem;
-  width: 30%;
+  width: 50%;
   font-size: 36px;
   line-height: 2;
 }
 .careerOpportunities .row {
   padding: 6rem;
+  margin: 0;
 }
 .careerOpportunities .row .position-sticky {
   padding: 5rem;

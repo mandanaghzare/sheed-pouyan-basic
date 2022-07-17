@@ -2,7 +2,6 @@ import React, { useState, useId } from 'react'
 import { Link } from 'react-router-dom';
 import Footer from '../../public/js/Footer';
 import Menu from '../../public/js/Menu';
-import '../css/style.css';
 import Careers from './Careers';
 
 function CareerOpportunities() {

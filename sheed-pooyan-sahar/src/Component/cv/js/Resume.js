@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Footer from '../../public/js/Footer';
 import Menu from '../../public/js/Menu';
-import '../css/style.css';
 import { useDropzone } from 'react-dropzone';
 
 function Resume() {

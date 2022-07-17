@@ -16,7 +16,7 @@ export default function Articles() {
       <h2>مقالات</h2>
       <Swiper
         direction={"horizontal"}
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={50}
         loop={true}
         speed={1000}
@@ -26,7 +26,7 @@ export default function Articles() {
         className="mySwiper"
         breakpoints={{
           768: {
-            slidesPerView: 1,
+            slidesPerView: 3,
           },
         }}
       >

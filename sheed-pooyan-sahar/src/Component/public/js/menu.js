@@ -1,8 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
-import { Route, Link, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import '../../article/css/style.css';
+import '../../articles/css/style.css';
+import '../../career-opportunities/css/style.css';
+import '../../contact-us/css/style.css';
+import '../../cv/css/style.css';
+import '../../main/css/style.css';
+import '../../public/css/style.css';
 import '../../public/css/responsive.css';
+
 
 function Menu() {
   const [showNav, setShowNav] = useState(false);
@@ -14,7 +22,7 @@ function Menu() {
   }
   return (
     <div className="navbarMenu">
-      <GiHamburgerMenu onClick={openNavbar} />
+      <GiHamburgerMenu onClick={openNavbar} style={{display : showNav ? 'none' : ''}} />
         <nav className={showNav ? 'show' : ''}>
           <AiOutlineClose onClick={closeNavbar} className='close' />
           <div className="logo">
