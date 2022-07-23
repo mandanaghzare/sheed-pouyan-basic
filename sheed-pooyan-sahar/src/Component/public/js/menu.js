@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { active, deActive } from '../../../redux/features/activate/activateSlice';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
@@ -10,18 +12,29 @@ import '../../cv/css/style.css';
 import '../../main/css/style.css';
 import '../../public/css/style.css';
 import '../../public/css/responsive.css';
+import LogIn from './LogIn';
 
 
 function Menu() {
-  const [showNav, setShowNav] = useState(false);
+  const state = useSelector((state) => state.activate.value)
+  const dispatch = useDispatch()
+  const [showNav, setShowNav] = useState([false]);
   const openNavbar = () => {
     setShowNav(true);
   }
   const closeNavbar = () => {
     setShowNav(false);
   }
+
+  const[logIn, setLogIn] = useState(false);
+  const logInClick = () => {
+    setLogIn(true);
+    console.log(logIn)
+  }
+
   return (
     <div className="navbarMenu">
+      <LogIn props={logIn} func={setLogIn} />
       <GiHamburgerMenu onClick={openNavbar} style={{display : showNav ? 'none' : ''}} />
         <nav className={showNav ? 'show' : ''}>
           <AiOutlineClose onClick={closeNavbar} className='close' />
@@ -43,7 +56,7 @@ function Menu() {
           </div>
           <div id="_button">
             <a className="language">Eng</a>
-            <a className="signIn">ورود</a>
+            <a onClick={logInClick} className="signIn">ورود</a>
           </div>
         </nav>
     </div>

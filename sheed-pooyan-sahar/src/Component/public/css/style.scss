@@ -266,9 +266,160 @@ footer{
 .subComponent{
     nav{
         padding: 1% 5%;
-        background-color: rgba(0, 0, 0, 0.5);        
+        background-color: rgba(0, 0, 0, 0.5);
         backdrop-filter: blur(30px);
-        backdrop-filter: brightness(15px);
+        background-color: rgb(0 40 48 / 49%);
+    }
+}
+
+.login{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: 1s ease transform;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    background-color: rgb(0 41 50 / 75%);
+    form{
+        background-color: #f1f5f9;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+        // transform: translateX(100%);
+        transition: 1s ease all;
+        position: relative;
+        justify-content: center;
+        padding: 10% 15%;
+        h2{
+            margin-bottom: 2rem;
+            width: 100%;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        input{
+            border: 1px solid #64748b;
+            border-left: none;
+            border-top: none;
+            background-color: transparent;
+            margin-top: 2rem;
+            width: 100%;
+            padding: 0 8px;
+        }
+        #recovery{
+            font-size: 12px;
+            margin-top: .5rem;
+            color: #64748b
+            ;
+        }
+        button{
+            background-color: $yellow;
+            color: #475569;
+            padding: .5em 4em;
+            margin-top: 2rem;
+            border-radius: 8px;
+            transition: .2s ease all;
+            &:hover{
+                background-color: #d6a100;
+            }
+        }
+        span{
+            width: 100%;
+            text-align: center;
+            margin-top: 3rem;
+            display: flex;
+            color: #475569;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            &::after, &::before{
+                content: '';
+                height: 3px;
+                width: 48%;
+                background-color: #b2570a;
+                display: flex;
+            }
+        }
+        .registerBtn{
+            width: 100%;
+            text-align: center;
+            margin-top: 2rem;
+            a{
+                background-color: $yellow;
+                color: #475569;
+                padding: .5em;
+                transition: .2s ease all;
+                width: 60%;
+                margin: 0 auto;
+                border-radius: 8px;
+                display: block;
+                &:hover{
+                    background-color: #d6a100;
+                }
+            }
+        }
+    }
+    .registerForm{
+        transform: translateX(100%);
+        display: flex;
+        position: absolute;
+        transition: .5s ease;
+        right: 0;
+        height: 100%;
+        overflow: auto;
+        &#show{
+            transform: translateX(0%);
+        }
+    }
+    .logInForm{
+        transform: translateX(100%);
+        display: flex;
+        position: absolute;
+        transition: .5s ease;
+        right: 0;
+        height: 100%;
+        overflow: auto;
+        &#show{
+            transform: translateX(0%);
+        }
+    }
+    .welcome{
+        width: 50%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 20%;
+            height: unset;
+        }
+        p{
+            margin-top: 5rem;
+            font-size: 1.2em;
+        }
+    }
+    .back{
+        position: absolute;
+        color: #f1f5f9;
+        font-size: 40px;
+        left: 2rem;
+        top: 2rem;
+        cursor: pointer;
+        svg{
+            display: block;
+        }
+    }
+    &#show{
+        opacity: 1;
+        transition: 1s ease transform;
+        transform: translateX(0%);
     }
 }
 
