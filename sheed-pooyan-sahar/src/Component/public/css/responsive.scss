@@ -64,6 +64,18 @@
             }
         }
     }
+    .login{
+        .right{
+            height: 100vh;
+            width: 50%;
+            overflow: scroll;
+            position: relative;
+        }
+        form{
+            padding: 10%;
+            width: 100%;
+        }
+    } 
     .attribute{
         .outter, .inner{
             width: 20rem;
@@ -332,6 +344,17 @@
     } 
 }
 @media only screen and (max-width: 575.98px) {
+    .login{
+        .right{
+            width: 100%;
+        }
+        .welcome{
+            display: none;
+        }
+        .back svg{
+            color: #1a1a1a;
+        }
+    } 
     footer #_footerCover{
         flex-direction: column;
         font-size: 12px;

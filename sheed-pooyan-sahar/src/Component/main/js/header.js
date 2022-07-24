@@ -3,8 +3,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../../public/font/IranSans/css/styles.rtl.css';
 import Menu from '../../public/js/Menu';
 import { Parallax } from 'react-parallax';
+import { useDispatch, useSelector } from 'react-redux';
 
 function MainHeader() {
+  const dispatch = useDispatch()
+  const logState = useSelector((state) => state.logInPopUp.value);
 
   // header cover class
   const [stickyClass, setStickyClass] = useState('relative');
@@ -83,7 +86,7 @@ function MainHeader() {
           </div>
         </Parallax>
       </div>
-      <div className="polygon" style={{transform: `rotate3d(1, 0, 0, ${rotatePolygon}deg)`, opacity:fadePolygon}}>
+      <div className="polygon" id={logState ? "show" : ""} style={{transform: `rotate3d(1, 0, 0, ${rotatePolygon}deg)`, opacity:fadePolygon}}>
         <div className="outter">
           <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
           <div className="inner">
