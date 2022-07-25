@@ -14,10 +14,12 @@ import '../../public/css/style.css';
 import '../../public/css/responsive.css';
 import LogIn from './LogIn';
 import { useTranslation } from "react-i18next";
+import { enLanguage, faLanguage } from '../../../redux/features/language/languageSlice';
 
 
 function Menu() {
   const state = useSelector((state) => state.logInPopUp.value)
+  const langVal = useSelector((state) => state.language.value)
   const dispatch = useDispatch()
   const [showNav, setShowNav] = useState(false);
   const openNavbar = () => {
@@ -30,19 +32,16 @@ function Menu() {
   const logInClick = () => {
     dispatch(show());
     setShowNav(false);
-    console.log(state)
   }
 
   const { i18n, t } = useTranslation();
-  const [language, setLanguage] = useState("fa");
   let ref = useRef()
   
   const handleLangChange = evt => {
-    let lang = ref.current.value;
-    
-    console.log(lang);
-    setLanguage(lang);
+    let lang = `${langVal == "fa" ? "en" : "fa"}`
+    langVal == "fa" ? dispatch(enLanguage()) : dispatch(faLanguage())
     i18n.changeLanguage(lang);
+
   };
 
   return (
@@ -56,7 +55,7 @@ function Menu() {
           </div>
           <div className="menu">
             <ul className="list-unstyled">
-              <li><Link to='/products'>{t("محصولات و خدمات")}</Link></li>
+              <li><Link to='/products'>{t("product")}</Link></li>
               <li>|</li>
               <li><Link to='/blogs'>بلاگ</Link></li>
               <li>|</li>
@@ -68,7 +67,7 @@ function Menu() {
             </ul>
           </div>
           <div id="_button">
-            <a ref={ref} onClick={handleLangChange} value="en" className="language">EN</a>
+            <button ref={ref} onClick={handleLangChange} value={langVal == "fa" ? "en" : "fa"} className="language">{langVal == "fa" ? "En" : "فا"}</button>
             <a onClick={logInClick} className="signIn">ورود</a>
           </div>
         </nav>

@@ -8678,6 +8678,7 @@ nav .language, nav .signIn {
   transition: 0.3s ease all;
   margin-right: 1rem;
   font-size: 0.9em;
+  background-color: transparent;
 }
 nav .language:hover, nav .signIn:hover {
   box-shadow: 0px 0px 5px 2px;

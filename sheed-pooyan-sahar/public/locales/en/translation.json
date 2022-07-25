@@ -1,3 +1,7 @@
 {
-    "product" : "Products"
+    "product" : "Products",
+    "blog" : "Blog",
+    "aboutus" : "About Us",
+    "carOpp" : "Career Opportunities",
+    "contsactUs" : "Contact Us"
 }
