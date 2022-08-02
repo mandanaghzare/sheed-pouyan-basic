@@ -37,11 +37,10 @@ function Menu() {
   const { i18n, t } = useTranslation();
   let ref = useRef()
   
-  const handleLangChange = evt => {
+  const handleLangChange = () => {
     let lang = `${langVal == "fa" ? "en" : "fa"}`
     langVal == "fa" ? dispatch(enLanguage()) : dispatch(faLanguage())
     i18n.changeLanguage(lang);
-
   };
 
   return (
@@ -57,18 +56,18 @@ function Menu() {
             <ul className="list-unstyled">
               <li><Link to='/products'>{t("product")}</Link></li>
               <li>|</li>
-              <li><Link to='/blogs'>بلاگ</Link></li>
+              <li><Link to='/blogs'>{t("blog")}</Link></li>
               <li>|</li>
-              <li><Link to='/src/Component/cv/js/AboutUs.js'>درباره ما</Link></li>
+              <li><Link to='/src/Component/cv/js/AboutUs.js'>{t("aboutus")}</Link></li>
               <li>|</li>
-              <li><Link to='/career'>فرصت های شغلی</Link></li>
+              <li><Link to='/career'>{t("carOpp")}</Link></li>
               <li>|</li>
-              <li><Link to='/contact-us'>ارتباط با ما</Link></li>
+              <li><Link to='/contact-us'>{t("contsactUs")}</Link></li>
             </ul>
           </div>
           <div id="_button">
             <button ref={ref} onClick={handleLangChange} value={langVal == "fa" ? "en" : "fa"} className="language">{langVal == "fa" ? "En" : "فا"}</button>
-            <a onClick={logInClick} className="signIn">ورود</a>
+            <a onClick={logInClick} className="signIn">{t("signIn")}</a>
           </div>
         </nav>
     </div>

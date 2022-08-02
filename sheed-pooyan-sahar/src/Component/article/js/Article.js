@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
 import Menu from '../../public/js/Menu';
-import { AiOutlineUser } from 'react-icons/ai';
-import { AiOutlineCalendar } from 'react-icons/ai';
-import { BsShare } from 'react-icons/bs';
-import { BsSuitHeartFill } from 'react-icons/bs';
+import { BsSuitHeartFill, BsShare } from 'react-icons/bs';
 import { FaRegCommentAlt } from 'react-icons/fa';
-import { AiOutlineInstagram } from 'react-icons/ai';
+import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineCalendar, AiOutlineUser } from 'react-icons/ai';
 import { FiTwitter } from 'react-icons/fi';
 import { ImWhatsapp } from 'react-icons/im';
-import { AiOutlineLinkedin } from 'react-icons/ai';
 import TopArticleLIstItem from '../../articles/js/TopArticleLIstItem';
 import LastArticlesItem from '../../articles/js/LastArticlesItem';
 import Footer from '../../public/js/Footer';

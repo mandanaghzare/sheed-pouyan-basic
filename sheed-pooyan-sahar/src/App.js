@@ -9,6 +9,7 @@ import Careers from './Component/career-opportunities/js/CareerOpportunities';
 import ContactUsPage from './Component/contact-us/js/ContactUs';
 import Resume from './Component/cv/js/Resume';
 import "./i18n";
+import ChooseLang from "./Component/pemiere/js/ChooseLang";
 
 function App() {
   return (

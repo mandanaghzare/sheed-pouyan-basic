@@ -10,10 +10,12 @@ import Footer from '../../public/js/Footer';
 import { 
   ScrollContainer,
   ScrollPage,} from 'react-scroll-motion';
+import ChooseLang from '../../pemiere/js/ChooseLang';
 
 function Main() {
   return (
     <div id="scroll-container">
+      <ChooseLang />
       <ScrollContainer>
         <ScrollPage page={0}>
           <MainHeader />
