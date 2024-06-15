@@ -1,8 +1,8 @@
 import React, { useState, useId } from 'react'
 import { Link } from 'react-router-dom';
-import Footer from '../../public/js/Footer';
-import Menu from '../../public/js/Menu';
-import Careers from './Careers';
+import Footer from '../../public/js/footer.js';
+import Menu from '../../public/js/menu.js';
+import Careers from './Careers.js';
 
 function CareerOpportunities() {
 

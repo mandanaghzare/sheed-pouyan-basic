@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../../public/js/Footer';
-import Menu from '../../public/js/Menu';
+import Footer from '../../public/js/footer.js';
+import Menu from '../../public/js/menu.js';
 import { BsTelephone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 

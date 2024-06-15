@@ -1,6 +1,6 @@
 
 import React, { Suspense } from "react";
-import Main from './Component/main/js/Main';
+import Main from './Component/main/js/main.js';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Route, Routes } from 'react-router-dom';
 import Articles from './Component/articles/js/Articles';

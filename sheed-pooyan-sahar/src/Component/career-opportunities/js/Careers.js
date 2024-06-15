@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CareerItem from './CareerItem'
+import CareerItem from './CareerItem.js'
 
 function Careers() {
 

@@ -14,4 +14,4 @@ function TopArticleLIstItem() {
   )
 }
 
-export default TopArticleLIstItem
+export default TopArticleLIstItem;

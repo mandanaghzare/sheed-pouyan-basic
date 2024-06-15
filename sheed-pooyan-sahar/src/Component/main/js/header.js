@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../public/font/IranSans/css/styles.rtl.css';
-import Menu from '../../public/js/Menu';
+import Menu from '../../public/js/menu.js';
 import { Parallax } from 'react-parallax';
 import { useDispatch, useSelector } from 'react-redux';
 

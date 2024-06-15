@@ -1,8 +1,8 @@
 import React from 'react'
-import Menu from '../../public/js/Menu';
-import Footer from '../../public/js/Footer';
-import Items from './NewsItems';
-import TopArticleLIstItem from './TopArticleLIstItem';
+import Menu from '../../public/js/menu.js';
+import Footer from '../../public/js/footer.js';
+import Items from './newsItems.js';
+import TopArticleLIstItem from './topArticleLIstItem.js';
 
 
 function Articles() {

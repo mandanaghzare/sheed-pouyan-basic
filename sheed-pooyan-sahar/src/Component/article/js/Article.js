@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Menu from '../../public/js/Menu';
+import Menu from '../../public/js/menu.js';
 import { BsSuitHeartFill, BsShare } from 'react-icons/bs';
 import { FaRegCommentAlt } from 'react-icons/fa';
 import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineCalendar, AiOutlineUser } from 'react-icons/ai';
 import { FiTwitter } from 'react-icons/fi';
 import { ImWhatsapp } from 'react-icons/im';
-import TopArticleLIstItem from '../../articles/js/TopArticleLIstItem';
-import LastArticlesItem from '../../articles/js/LastArticlesItem';
-import Footer from '../../public/js/Footer';
+import TopArticleLIstItem from '../../articles/js/topArticleLIstItem.js';
+import LastArticlesItem from '../../articles/js/LastArticlesItem.js';
+import Footer from '../../public/js/footer.js';
 import {
   LinkedinShareButton,
   TelegramShareButton,
